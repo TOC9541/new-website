@@ -1,0 +1,44 @@
+.section-join {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background: rgb(72, 72, 104);
+  background: linear-gradient(
+    128deg,
+    rgba(72, 72, 104, 1) 0%,
+    rgba(93, 66, 190, 1) 100%
+  );
+  padding: 48px;
+}
+
+.section-join-url {
+  background: #343434;
+  padding: 10px 55px;
+  border-radius: 8px;
+  font-family: Consolas;
+  color: #fff;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: 250ms ease;
+}
+
+.section-join-url:hover {
+  background: #232323;
+}
+
+.section-games {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background: rgb(159, 192, 181);
+  background: linear-gradient(
+    128deg,
+    rgb(159, 192, 181) 0%,
+    rgb(110, 144, 167) 100%
+  );
+  padding: 48px;
+}

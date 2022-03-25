@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TOC Network</title>
+    <link rel="stylesheet" href="/assets/page/page.css" />
+    <link rel="stylesheet" href="/assets/page/header.css" />
+    <link rel="stylesheet" href="/assets/page/hero.css" />
+    <link rel="stylesheet" href="/assets/page/footer.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <div class="header" id="header">
+    <a onclick="openNav()"
+      ><svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="32px"
+        viewBox="0 0 24 24"
+        width="32px"
+        fill="#000000"
+      >
+        <path d="M0 0h24v24H0V0z" fill="none" />
+        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+      </svg>
+    </a>
+    <a href="/?utm_source=site&utm_medium=header&utm_campaign=header_link">
+      <h1 class="toclogo">TOC Network</h1>
+    </a>
+    <a href=""></a>
+  </div>
+  <!-- SIDEBAR -->
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="#">Join</a>
+    <a href="#">Features</a>
+    <a href="#">Contact</a>
+    <a href="#">About</a>
+    <a href="/?utm_source=site&utm_medium=sidebar&utm_campaign=sidebar_link"
+      ><h1 class="sidebar-logo">TOC Network</h1></a
+    >
+  </div>
+  <body>
+    <div id="sidebar-cover" onclick="closeNav()"></div>
+    <!-- HERO HTML -->
+    <div class="hero" id="large">
+      <!-- ADD ID "SMALL" OR "LARGE" FOR DIFFERENT HEROS -->
+      <h2 class="hero-subtitle" id="fly-in-1">Welcome to the</h2>
+      <h1 class="hero-title" id="fly-in-2">TOC Network</h1>
+      <h2 class="hero-subtitle" id="fly-in-3">a 1.16+ Minecraft Server</h2>
+      <div class="scroll-arrow">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="52px"
+          viewBox="0 0 24 24"
+          width="52px"
+          fill="#FFFFFF"
+        >
+          <path d="M24 24H0V0h24v24z" fill="none" opacity=".87" />
+          <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6-1.41-1.41z" />
+        </svg>
+      </div>
+    </div>
+    <!-- END OF HERO HTML -->
+    <div class="section-join" id="top">
+      <h1 class="section-heading" style="color: #fff">Join the TOC Network</h1>
+      <p class="section-body" style="color: #fff">
+        Join the TOC Network Minecraft Server. Connect with Minecraft: Java
+        Edition (on PC) on versions 1.16.5 - current.
+      </p>
+      <h2 class="section-subheading" style="color: #fff; margin-top: 25px">
+        Just use the IP:
+      </h2>
+      <div
+        class="section-join-url"
+        onclick="copyToClipboard()"
+        id="copyToClipboard"
+        title="Copy IP Address to Clipboard"
+      >
+        play.tocnetwork.net
+      </div>
+    </div>
+    <div class="section-games" id="bottom"></div>
+  </body>
+  <footer>
+    <div class="footer">
+      <h1 class="footer-logo" onclick="toTheTop()">TOC Network</h1>
+      <p class="footer-body">
+        A 1.16+ Minecraft Server with many fun minigames to play with your
+        friends, or against others.
+      </p>
+      <div class="footer-links-container">
+        <div class="footer-links-section">
+          <a href="/">Home</a>
+        </div>
+        <div class="footer-links-section">
+          <a href="/">Template</a>
+        </div>
+        <div class="footer-links-section">
+          <a href="/">Template</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>TOC Network 2022 - All Rights Reserved.</p>
+        <p>
+          We are not affiliated with Mojang AB.<br />Minecraft is a copyright of
+          Mojang AB.
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="/assets/page/page.js"></script>
+</html>
